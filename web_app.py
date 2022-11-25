@@ -147,4 +147,9 @@ st.write('''### Predicción del modelo: \n'''
             +"# "+estado_prediccion)
 st.write(prediction)
 
-
+st.write('''
+    ## Referencias:
+    * Hore, A. (2022). "Predict Dropout or Academic Success". Kaggle. Recuperado de: https://www.kaggle.com/datasets/ankanhore545/dropout-or-academic-success/discussion/333138?select=Dropout_Academic+Success+-+Sheet1.csv
+    * Realinho V, Machado J, Baptista L, Martins MV. (2022) "Predicting Student Dropout and Academic Success". Data. 2022; 7(11):146. https://doi.org/10.3390/data7110146
+    * Selwaness I, Adam T, Lawson L, & Heady L. (2022). Guidance Note on Education Data Mapping in Sub-Saharan Africa: Moving from theory to practice [Technical Report]. EdTech Hub. https://doi.org/10.53832/edtechhub.0096
+''')
