@@ -12,13 +12,14 @@ image_matriz_confusion1 = Image.open('img/matriz_confusion_modelo2.jpeg')
 image_matriz_confusion2 = Image.open('img/matriz_confusion_modelo1.jpeg')
 image_configruacion_modelo_ia = Image.open('img/configuracion_perceptron_multicapa.jpeg')
 
-st.title('HACK4EDU (Reto 32) - Universidad Distrital FJC')
+st.title('Centro de Bienestar Institucional (PDI) - Universidad Distrital FJC')
 st.write('''
     ### Integrantes:
-    * Daniel : danarodriguezs@correo.udistrital.edu.co
     * David: ndbohorquezg@correo.udistrital.edu.co
     * Jordy: jepinedav@correo.udistrital.edu.co
+    * Oscar : 
 ''')
+#* Daniel : danarodriguezs@correo.udistrital.edu.co
 
 st.write('Creación de una aplicación web que permita el análisis y predicción de la deserción académica de los estudiantes basados en su historial, que le sirva a las diferentes entidades educativas para tomar decisiones correctivas en etapas tempranas del proceso educativo y evaluar su impacto en el porcentaje de abandono de los sistemas educativos.')
 
@@ -89,10 +90,16 @@ st.write('''
 Lo primero que se hizo fue la creación de una matriz de correlación con la que 
 se pudieran evaluar cuales atributos eran los mas influyentes y así reducir el número
 de variables que tiene que usar el modelo de inteligencia artificial.
+
+#### Matriz de correlaciones
 ''')
 st.image(image_matriz_correlacion, caption='Matriz de correlación')
+
+st.write('#### Clasificador de árboles extra')
 st.image(image_variables_relevantes, caption='Variables relavantes para el modelo')
 
+st.write('''#### Selección de atributos
+Conjunto de datos de 10 registros para validación del modelo con los 18 atributos seleccionados de los 36 atributos originales''')
 st.write(data[['application mode',
     'course',
     'previous qualification (grade)',
