@@ -17,9 +17,9 @@ st.write('''
     ### Integrantes:
     * David: ndbohorquezg@correo.udistrital.edu.co
     * Jordy: jepinedav@correo.udistrital.edu.co
-    * Oscar : 
+    * Oscar : ocgutierrezv@correo.udistrital.edu.co 
+    * Daniel : danarodriguezs@correo.udistrital.edu.co
 ''')
-#* Daniel : danarodriguezs@correo.udistrital.edu.co
 
 st.write('Creación de una aplicación web que permita el análisis y predicción de la deserción académica de los estudiantes basados en su historial, que le sirva a las diferentes entidades educativas para tomar decisiones correctivas en etapas tempranas del proceso educativo y evaluar su impacto en el porcentaje de abandono de los sistemas educativos.')
 
